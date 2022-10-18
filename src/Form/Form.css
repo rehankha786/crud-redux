@@ -1,0 +1,88 @@
+.form-page{
+    text-align: center;
+    padding-top: 4%;
+    min-width: 500px;
+}
+
+.form-input{
+    width: 30%;
+    height: 40px;
+    border-radius: 13px 0px 13px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 30px;
+    border: none;
+    outline: none;
+}
+label{
+    padding-top: 2%;
+    margin-left: auto;
+    padding-bottom: 1%;
+}
+.btn-click{
+    padding-top: 3%;
+    margin-right:30px;
+}
+#click-btn{
+width:10%;
+height: 3rem;
+font-size: 1.4rem;
+background-color: #1C0C2A;
+color: #5588A3;
+letter-spacing: 1px;
+font-family: 'josefin Sans',sans-serif;
+padding-top: .3rem;
+
+border-radius: 5px;
+box-shadow: 0 0 8px #0005;
+
+}
+/* .table-book{
+      margin-left: 24%;
+} */
+
+@media (max-width: 1000px) { 
+    #click-btn{
+        width:auto;
+        font-size: 1.4rem;
+    }
+
+ }
+ @media (max-width: 770px) { 
+    .table-data{
+        margin-left: 5%;
+        }
+ }
+ @media (max-width: 462px) { 
+    .table-book{
+        padding-left: 600%;
+  }
+ }
+ @media (max-width: 250px) { 
+    .table-data{
+        margin-left: 3%;
+        }
+ }
+ @media (max-width:440px) { 
+    .form-input{
+        width: 100%;
+        border-radius: 0%;
+    }
+    .table-data{
+        margin-left: 9%;
+
+        }
+    label{
+        padding-top: 6%;
+    }
+    .form-heading{
+        padding-top: 6%;
+    }
+    .btn-click{
+        padding-top: 9%;
+    }
+    #click-btn{
+        width:106%;
+        
+    }
+
+ }

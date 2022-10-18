@@ -1,0 +1,13 @@
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.footer{
+    background-color: #383041;
+    margin-top: 3%;
+    min-width: 500px;
+}
+.count{
+    padding-top: 13px;
+}
